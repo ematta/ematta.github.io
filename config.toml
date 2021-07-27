@@ -1,0 +1,57 @@
+baseURL = "http://ematta.github.io/"
+languageCode = "en-us"
+title = "ematta"
+copyright = "© Copyright notice"
+theme = "minima"
+paginate = 7
+googleAnalytics = ""
+disqusShortname = "hugo-minima"
+
+
+# Author has some of your information to be shown on the home 
+# page of your blog.
+[author]
+name = "Enrique Matta-Rodriguez"
+slogon = "Quality Code and Life"
+description = ""
+
+
+[[params.social]]
+name = "github"  
+url = "https://github.com/ematta"
+svg = ""
+[[params.social]]
+name = "linkedin"
+url = "https://linkedin/in/enriquematta"
+svg = ""
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/enriquem"
+svg = ""
+[[params.social]]
+name = "rss"
+url = "/index.xml"
+svg = ""
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+weight = 2
+[[menu.main]]
+name = "Series"
+url = "/series"
+weight = 3
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+
+[markup.highlight]
+lineNos = true
+noClasses = false
+  
